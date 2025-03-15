@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-dv!tl%jzxii_%lig&r#dk$0bw6_lza1e%vk)yyi3(_7chkn!mz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["food-finder-397u.onrender.com", "127.0.0.1", "localhost"]
+
 
 
 # Application definition
@@ -139,4 +140,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
